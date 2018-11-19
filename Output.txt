@@ -1,0 +1,32 @@
+Begining of report: 
+
+
+
+ 
+Top three visited articles are:
+
+'Candidate is jerk, alleges rival'..............    338647 hits
+
+'Bears love berries, alleges bear'..............    253801 hits
+
+'Bad things gone, say good people'..............    170098 hits
+
+ 
+
+The top three authors are: 
+
+
+Ursula La Multa     ...with...    507594 Total Views
+
+Rudolf von Treppenwitz     ...with...    423457 Total Views
+
+Anonymous Contributor     ...with...    170098 Total Views
+
+ 
+
+days on which the requests had more 1% errors are :
+
+2016-07-17, errors in requests:2%
+
+
+---End of Output---
