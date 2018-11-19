@@ -1,6 +1,6 @@
-# NewsDB Reportýng Tool
+# NewsDB ReportÃ½ng Tool
 
-_**NDBRT**_ ýs a reporting tool that prints out reports (in plain text) based on the data in the _**news**_ database. 
+_**NDBRT**_ Ã½s a reporting tool that prints out reports (in plain text) based on the data in the _**news**_ database. 
 This reporting tool is a Python program using the psycopg2 module to connect to the database.
 
 ## Installation
@@ -16,6 +16,7 @@ use the following lines to setup these **views** after connecting to the databas
 `$psql`
 `$\c news`
 pathHits:
+
 `create view pathHits as select path, count(*) as hits from log where status='200 OK' and path !='/' group by path order by hits desc;`
 ArticleViews:
 `create view ArticleViews as select a.title, p.hits from articles as a join pathHits as p on p.path like ('%' || a.slug);`
